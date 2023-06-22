@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="Website Icon" type="text" href="images/Screenshot 2023-06-22 181027.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comoatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anas Joseph</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/88306466c9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div id="header">
+        <div  class="container">
+            <nav>
+                <img src="images/Screenshot 2023-06-22 181027.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Experience</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="text-box">
+                <p> Hi, I'M</p>
+                <h1>Anas Joseph</h1> 
+                <H3>Hello My Name Is Anas Joseph from kerala i enjoy my life by creating website and  also by designing website.</h3>
+            </div>
+        </div>
+     </div>  
+      
+     <!-----------about--------> 
+     <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="images/Anas Joseph.jpeg">
+                </div>
+                <div class="About-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hello I'm Anas Joseph From kerala . And I enjoy my life by creating websites on online. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Journey')">My Journey</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Journey">
+                        <ul>
+                            <li><span>2022</span><br>Came into Codeing.</li>
+                            <h5>Decebmber 22</h5>
+                            <li><span>2006</span><br>Landed on Earth.</li>
+                            <h5>January 10</h5>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+<!---------services------------->
+<div id="Service">
+    <div class="container">
+        <h1 class="sub-title">My SKILS</h1>
+        <h2>Some Language's which i use.</h2>
+        <div class="Service-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>PYTHON</h2>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+            </div>
+            <div>
+                <i class="fa-brands fa-css3-alt"></i>
+                <h2>CSS</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------contact---------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <h2>Get In Touch</h2>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="anas-joseph-328a19275" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/anas-joseph-328a19275?trk=profile-badge"></a></div>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_an.as_joseph_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/anas-joseph-328a19275"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+            </div>
+            <div class="Contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name:" required>
+                    <input type="email" name="Email" placeholder="Email:" required>
+                    <textarea name="Message" rows="6" placeholder="Message:"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+        }
+        
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color:  #07a3eb;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color:   #081b29;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">⏏</button>
+        
+         
+        
+        <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        </body>
+
+
+    <!-----top button---->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="copyright">
+         <footer>
+    <p>&copy; 2023</p>
+  </footer>
+         
+        <h4>Anas Joseph</h4>
+
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+ 
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxK8xPUMVy5ydqN0vG3MZdmsNQh9NMztkYULdjZAg0jIU4XQKw0e91Eh9M98aCtOWDO/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML = "Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  
+    </body>
+</html>
